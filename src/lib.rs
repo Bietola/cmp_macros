@@ -1,5 +1,6 @@
 #![feature(cmp_min_max_by)]
 
+#[macro_export]
 macro_rules! chain {
     ($fun:expr; $head:expr $(,)*) => {
         $head
